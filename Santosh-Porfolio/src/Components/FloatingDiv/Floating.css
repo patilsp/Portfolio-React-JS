@@ -1,0 +1,7 @@
+.floatingdiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+}
