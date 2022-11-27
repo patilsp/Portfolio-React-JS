@@ -70,3 +70,37 @@
     transform: scale(1.4);
     left: 28%;
 }
+.divBlcok1{
+    top: -4%;
+    left: 68%;
+}
+.divBlcok2{
+    top: 18rem;
+    left: 0px;
+}
+
+.i-right>:nth-child(4){
+    transform: scale(0.6);
+    top: -20%;
+    left: -64px;
+    padding: 0;
+    border-radius: 50%;
+    padding: 0;
+}
+.bg-style{
+    background: rgb(238, 210, 255);
+    
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
+    z-index: -18;
+    top: 18%;
+    left: 56%;
+    filter: blur(72px);
+}

@@ -42,9 +42,21 @@ const Intro = () => {
             <img src={Vector1} alt='' />
             <img src={Vector2} alt='' />
             <img src={boy} alt='' />
-            <div>
-                <FloatingDiv image="Crown"/>
+            <img src={Glassesimoji} alt='' />
+            <div className='divBlcok1'>
+                <FloatingDiv image={Crown} text1='Web' text2='Developer'/>
             </div>
+            <div className='divBlcok2'>
+                <FloatingDiv image={Thumbup} text1='Best Design' text2='Award' />
+            </div>
+            <div className='blur bg-style' style={{
+                background:'#C1F5FF',
+                top:'17rem',
+                width:'21rem',
+                height:'11rem',
+                left:'-9rem'
+            }}
+            ></div>
         </div>
     </div>
   )
